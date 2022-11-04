@@ -1,0 +1,5 @@
+- step:
+    name: shoot
+    image: python:3.11
+    command:
+      - echo "BANG!"
