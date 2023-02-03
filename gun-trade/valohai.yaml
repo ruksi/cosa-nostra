@@ -3,3 +3,9 @@
     image: python:3.11
     command:
       - echo "BANG!"
+
+- endpoint:
+    name: dump
+    image: python:3.9
+    port: 8000
+    server-command: python gun-trade/server.py
